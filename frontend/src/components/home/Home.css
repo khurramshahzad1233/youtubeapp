@@ -1,0 +1,16 @@
+.navigationbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo svg{
+    font-size: 1.5rem;
+    color: red;
+    position: relative;
+    top: 5px;
+    margin: 0 15px;
+    
+}
+.logo{
+    padding: 5px 10px;
+}

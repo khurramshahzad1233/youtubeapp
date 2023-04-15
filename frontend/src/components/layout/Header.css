@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+
+    width: 20vw;
+    background-color: aliceblue;
+    position: fixed;
+    min-height: 100vh;
+
+}
+.darkmodediv{
+    width: 20vw;
+    background-color:var(--lightblack);
+    position: fixed;
+    min-height: 100vh;
+}
+.darkmodediv p :nth-last-child(1){
+    color: white;
+}
+.sidebar :nth-child(3){
+    border-bottom: 1px solid silver;
+}
+.sidebar :nth-child(5){
+    border-bottom: 1px solid silver;
+}
+.sidebar :nth-child(11){
+    border-bottom: 1px solid silver;
+}
+.sidebar p{
+    padding: 10px 40px;
+}
+.sidebar p>span{
+    margin: 0 11px;
+    
+}
